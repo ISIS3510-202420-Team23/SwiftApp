@@ -71,9 +71,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		375EDB922C8F6E82004138B0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		375EDB932C8F6F04004138B0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		375EDB942C8F6F13004138B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		375EDB952C8F6FBF004138B0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		37782CC72C8E803C00913A91 = {
 			isa = PBXGroup;
 			children = (
+				375EDB952C8F6FBF004138B0 /* Fonts */,
 				37782CD22C8E803C00913A91 /* SwiftApp */,
 				37782CE32C8E803D00913A91 /* SwiftAppTests */,
 				37782CED2C8E803D00913A91 /* SwiftAppUITests */,
@@ -94,8 +123,11 @@
 		37782CD22C8E803C00913A91 /* SwiftApp */ = {
 			isa = PBXGroup;
 			children = (
+				375EDB922C8F6E82004138B0 /* ViewModels */,
 				37782CD32C8E803C00913A91 /* SwiftAppApp.swift */,
 				37782CD52C8E803C00913A91 /* ContentView.swift */,
+				375EDB942C8F6F13004138B0 /* Views */,
+				375EDB932C8F6F04004138B0 /* Models */,
 				37782CD72C8E803D00913A91 /* Assets.xcassets */,
 				37782CD92C8E803D00913A91 /* Preview Content */,
 			);
