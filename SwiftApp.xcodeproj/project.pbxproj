@@ -14,12 +14,12 @@
 		37782CE52C8E803D00913A91 /* SwiftAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37782CE42C8E803D00913A91 /* SwiftAppTests.swift */; };
 		37782CEF2C8E803D00913A91 /* SwiftAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37782CEE2C8E803D00913A91 /* SwiftAppUITests.swift */; };
 		37782CF12C8E803D00913A91 /* SwiftAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37782CF02C8E803D00913A91 /* SwiftAppUITestsLaunchTests.swift */; };
-		37DA1F392C97195200880A36 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F382C97195200880A36 /* Test.swift */; };
-		37DA1F3B2C97195C00880A36 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F3A2C97195C00880A36 /* Test.swift */; };
-		37DA1F3D2C97196900880A36 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F3C2C97196900880A36 /* Test.swift */; };
+		37DA1F392C97195200880A36 /* TestModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F382C97195200880A36 /* TestModels.swift */; };
+		37DA1F3B2C97195C00880A36 /* TestVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F3A2C97195C00880A36 /* TestVM.swift */; };
 		37DA1F422C97199300880A36 /* LeagueSpartan-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F402C97199300880A36 /* LeagueSpartan-Regular.ttf */; };
 		37DA1F432C97199300880A36 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F412C97199300880A36 /* Montserrat-Regular.ttf */; };
 		37DA1F462C9719D700880A36 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F452C9719D700880A36 /* ColorExtensions.swift */; };
+		37DA1F482C971B1B00880A36 /* HomepageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F472C971B1B00880A36 /* HomepageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,12 +50,12 @@
 		37782CEA2C8E803D00913A91 /* SwiftAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37782CEE2C8E803D00913A91 /* SwiftAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppUITests.swift; sourceTree = "<group>"; };
 		37782CF02C8E803D00913A91 /* SwiftAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		37DA1F382C97195200880A36 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
-		37DA1F3A2C97195C00880A36 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
-		37DA1F3C2C97196900880A36 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		37DA1F382C97195200880A36 /* TestModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModels.swift; sourceTree = "<group>"; };
+		37DA1F3A2C97195C00880A36 /* TestVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVM.swift; sourceTree = "<group>"; };
 		37DA1F402C97199300880A36 /* LeagueSpartan-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Regular.ttf"; sourceTree = "<group>"; };
 		37DA1F412C97199300880A36 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		37DA1F452C9719D700880A36 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		37DA1F472C971B1B00880A36 /* HomepageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,7 @@
 		37DA1F352C9718B900880A36 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				37DA1F3C2C97196900880A36 /* Test.swift */,
+				37DA1F472C971B1B00880A36 /* HomepageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 		37DA1F362C9718CC00880A36 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				37DA1F3A2C97195C00880A36 /* Test.swift */,
+				37DA1F3A2C97195C00880A36 /* TestVM.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -172,7 +172,7 @@
 		37DA1F372C9718E600880A36 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				37DA1F382C97195200880A36 /* Test.swift */,
+				37DA1F382C97195200880A36 /* TestModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -318,10 +318,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				37782CD62C8E803C00913A91 /* ContentView.swift in Sources */,
-				37DA1F3B2C97195C00880A36 /* Test.swift in Sources */,
-				37DA1F3D2C97196900880A36 /* Test.swift in Sources */,
+				37DA1F3B2C97195C00880A36 /* TestVM.swift in Sources */,
 				37782CD42C8E803C00913A91 /* SwiftAppApp.swift in Sources */,
-				37DA1F392C97195200880A36 /* Test.swift in Sources */,
+				37DA1F392C97195200880A36 /* TestModels.swift in Sources */,
+				37DA1F482C971B1B00880A36 /* HomepageView.swift in Sources */,
 				37DA1F462C9719D700880A36 /* ColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
