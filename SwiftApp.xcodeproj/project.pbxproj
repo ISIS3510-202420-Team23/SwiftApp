@@ -26,6 +26,7 @@
 		37DA1F512C9720D700880A36 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 37DA1F502C9720D700880A36 /* FirebaseCrashlytics */; };
 		37DA1F532C9720D700880A36 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 37DA1F522C9720D700880A36 /* FirebaseDatabase */; };
 		37DA1F552C9720D700880A36 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 37DA1F542C9720D700880A36 /* FirebaseFirestore */; };
+		37DA1F572C9725D100880A36 /* HomepageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F562C9725D100880A36 /* HomepageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		37DA1F412C97199300880A36 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		37DA1F452C9719D700880A36 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
 		37DA1F492C971E7200880A36 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		37DA1F562C9725D100880A36 /* HomepageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				37DA1F3C2C97196900880A36 /* TestViews.swift */,
+				37DA1F562C9725D100880A36 /* HomepageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				37DA1F3D2C97196900880A36 /* TestViews.swift in Sources */,
 				37782CD42C8E803C00913A91 /* SwiftAppApp.swift in Sources */,
 				37DA1F392C97195200880A36 /* TestModels.swift in Sources */,
+				37DA1F572C9725D100880A36 /* HomepageView.swift in Sources */,
 				37DA1F462C9719D700880A36 /* ColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
