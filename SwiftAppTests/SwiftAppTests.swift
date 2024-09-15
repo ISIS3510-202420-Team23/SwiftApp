@@ -7,6 +7,7 @@
 
 import XCTest
 @testable import SwiftApp
+import Firebase
 
 final class SwiftAppTests: XCTestCase {
 

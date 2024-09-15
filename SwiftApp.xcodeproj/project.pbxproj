@@ -17,8 +17,6 @@
 		37DA1F392C97195200880A36 /* TestModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F382C97195200880A36 /* TestModels.swift */; };
 		37DA1F3B2C97195C00880A36 /* TestVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F3A2C97195C00880A36 /* TestVM.swift */; };
 		37DA1F3D2C97196900880A36 /* TestViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F3C2C97196900880A36 /* TestViews.swift */; };
-		37DA1F422C97199300880A36 /* LeagueSpartan-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F402C97199300880A36 /* LeagueSpartan-Regular.ttf */; };
-		37DA1F432C97199300880A36 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F412C97199300880A36 /* Montserrat-Regular.ttf */; };
 		37DA1F462C9719D700880A36 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F452C9719D700880A36 /* ColorExtensions.swift */; };
 		37DA1F4A2C971E7200880A36 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F492C971E7200880A36 /* GoogleService-Info.plist */; };
 		37DA1F4D2C9720D700880A36 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 37DA1F4C2C9720D700880A36 /* FirebaseAnalytics */; };
@@ -26,6 +24,8 @@
 		37DA1F512C9720D700880A36 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 37DA1F502C9720D700880A36 /* FirebaseCrashlytics */; };
 		37DA1F532C9720D700880A36 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 37DA1F522C9720D700880A36 /* FirebaseDatabase */; };
 		37DA1F552C9720D700880A36 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 37DA1F542C9720D700880A36 /* FirebaseFirestore */; };
+		37DA1F5E2C97293C00880A36 /* LeagueSpartan-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F5D2C97293C00880A36 /* LeagueSpartan-Regular.ttf */; };
+		37DA1F602C97296C00880A36 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F5F2C97296C00880A36 /* Montserrat-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,10 +59,11 @@
 		37DA1F382C97195200880A36 /* TestModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModels.swift; sourceTree = "<group>"; };
 		37DA1F3A2C97195C00880A36 /* TestVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVM.swift; sourceTree = "<group>"; };
 		37DA1F3C2C97196900880A36 /* TestViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViews.swift; sourceTree = "<group>"; };
-		37DA1F402C97199300880A36 /* LeagueSpartan-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Regular.ttf"; sourceTree = "<group>"; };
-		37DA1F412C97199300880A36 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		37DA1F452C9719D700880A36 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
 		37DA1F492C971E7200880A36 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		37DA1F5D2C97293C00880A36 /* LeagueSpartan-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Regular.ttf"; sourceTree = "<group>"; };
+		37DA1F5F2C97296C00880A36 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		37DA1F632C97337800880A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +99,6 @@
 		37782CC72C8E803C00913A91 = {
 			isa = PBXGroup;
 			children = (
-				37DA1F342C97189300880A36 /* Fonts */,
 				37782CD22C8E803C00913A91 /* SwiftApp */,
 				37782CE32C8E803D00913A91 /* SwiftAppTests */,
 				37782CED2C8E803D00913A91 /* SwiftAppUITests */,
@@ -119,6 +119,8 @@
 		37782CD22C8E803C00913A91 /* SwiftApp */ = {
 			isa = PBXGroup;
 			children = (
+				37DA1F632C97337800880A36 /* Info.plist */,
+				37DA1F582C97286500880A36 /* Fonts */,
 				37DA1F492C971E7200880A36 /* GoogleService-Info.plist */,
 				37DA1F442C9719AF00880A36 /* Utils */,
 				37DA1F372C9718E600880A36 /* Models */,
@@ -157,15 +159,6 @@
 			path = SwiftAppUITests;
 			sourceTree = "<group>";
 		};
-		37DA1F342C97189300880A36 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				37DA1F402C97199300880A36 /* LeagueSpartan-Regular.ttf */,
-				37DA1F412C97199300880A36 /* Montserrat-Regular.ttf */,
-			);
-			path = Fonts;
-			sourceTree = "<group>";
-		};
 		37DA1F352C9718B900880A36 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +189,15 @@
 				37DA1F452C9719D700880A36 /* ColorExtensions.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		37DA1F582C97286500880A36 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				37DA1F5D2C97293C00880A36 /* LeagueSpartan-Regular.ttf */,
+				37DA1F5F2C97296C00880A36 /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,10 +314,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37DA1F432C97199300880A36 /* Montserrat-Regular.ttf in Resources */,
-				37DA1F422C97199300880A36 /* LeagueSpartan-Regular.ttf in Resources */,
 				37DA1F4A2C971E7200880A36 /* GoogleService-Info.plist in Resources */,
+				37DA1F5E2C97293C00880A36 /* LeagueSpartan-Regular.ttf in Resources */,
 				37782CDB2C8E803D00913A91 /* Preview Assets.xcassets in Resources */,
+				37DA1F602C97296C00880A36 /* Montserrat-Regular.ttf in Resources */,
 				37782CD82C8E803D00913A91 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,6 +514,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -541,6 +544,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
