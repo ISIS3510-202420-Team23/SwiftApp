@@ -17,12 +17,13 @@ struct HomepageRentView: View {
                     VStack {
                         Heading()
                         SearchAndFilterBar()
+                        CreateMoreButton()
                         
                         LazyVStack (spacing: 32){
                             ForEach(0 ... 10, id: \.self) { listing in
                                 NavigationLink(value: listing){
-                                    OfferView()
-                                        .frame(height: 330)
+                                    OfferRentView()
+                                        .frame(height: 360)
                                         .clipShape(RoundedRectangle(cornerRadius: 30))
                                 }
                                 
@@ -30,10 +31,10 @@ struct HomepageRentView: View {
                         }
                         .padding()
                     }
-                    .navigationDestination(for: Int.self) { listing in
-                        OfferDetailView()
-                            .navigationBarBackButtonHidden()
-                    }
+//                    .navigationDestination(for: Int.self) { listing in
+//                        OfferDetailView()
+//                            .navigationBarBackButtonHidden()
+//                    }
                 }
             }
         } else {

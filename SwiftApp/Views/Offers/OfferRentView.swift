@@ -89,6 +89,7 @@ struct OfferRentView: View {
             
         }
         .padding()
+        
     }
 }
 #Preview {

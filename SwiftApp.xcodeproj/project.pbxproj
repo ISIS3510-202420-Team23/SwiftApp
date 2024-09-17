@@ -33,6 +33,7 @@
 		37DA1F742C98EC3C00880A36 /* OfferImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F732C98EC3C00880A36 /* OfferImageCarouselView.swift */; };
 		37DA1F772C99AC9800880A36 /* HomepageRentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F762C99AC9800880A36 /* HomepageRentView.swift */; };
 		37DA1F792C99ADD300880A36 /* OfferRentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F782C99ADD300880A36 /* OfferRentView.swift */; };
+		37DA1F7B2C99B18A00880A36 /* CreateMoreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F7A2C99B18A00880A36 /* CreateMoreButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		37DA1F732C98EC3C00880A36 /* OfferImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferImageCarouselView.swift; sourceTree = "<group>"; };
 		37DA1F762C99AC9800880A36 /* HomepageRentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageRentView.swift; sourceTree = "<group>"; };
 		37DA1F782C99ADD300880A36 /* OfferRentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferRentView.swift; sourceTree = "<group>"; };
+		37DA1F7A2C99B18A00880A36 /* CreateMoreButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMoreButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,8 +223,6 @@
 			isa = PBXGroup;
 			children = (
 				37DA1F672C98553400880A36 /* HomepageView.swift */,
-				37DA1F6C2C9866A100880A36 /* SearchAndFilterBar.swift */,
-				37DA1F6E2C989E3B00880A36 /* Heading.swift */,
 			);
 			path = Homepage;
 			sourceTree = "<group>";
@@ -241,6 +241,8 @@
 			isa = PBXGroup;
 			children = (
 				37DA1F732C98EC3C00880A36 /* OfferImageCarouselView.swift */,
+				37DA1F6C2C9866A100880A36 /* SearchAndFilterBar.swift */,
+				37DA1F6E2C989E3B00880A36 /* Heading.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -249,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				37DA1F762C99AC9800880A36 /* HomepageRentView.swift */,
+				37DA1F7A2C99B18A00880A36 /* CreateMoreButton.swift */,
 			);
 			path = HomepageRent;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37DA1F7B2C99B18A00880A36 /* CreateMoreButton.swift in Sources */,
 				37782CD62C8E803C00913A91 /* ContentView.swift in Sources */,
 				37DA1F6D2C9866A100880A36 /* SearchAndFilterBar.swift in Sources */,
 				37DA1F3B2C97195C00880A36 /* TestVM.swift in Sources */,
