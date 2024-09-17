@@ -1,11 +1,27 @@
 import SwiftUI
 
 struct OfferDetailView: View {
+    
+    @Environment(\.dismiss) var dismiss
     var body: some View {
         ScrollView{
-            OfferImageCarouselView()
-                .frame(height: 370)
-                .tabViewStyle(.page)
+            ZStack (alignment: .topLeading){
+                OfferImageCarouselView()
+                    .frame(height: 370)
+                    .tabViewStyle(.page)
+                Button {
+                    dismiss()
+                } label: {
+                    Image(systemName: "chevron.left")
+                        .foregroundStyle(Color(hex: "FFF4CF"))
+                        .background{
+                            Circle()
+                                .fill(Color(hex: "0C356A"))
+                                .frame(width: 40, height: 40)
+                        }
+                        .padding(32)
+                }
+            }
             
             VStack(alignment: .leading, spacing: 8){
                 Text("Apartment - T2 - 1102")

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HomepageTestView: View {
+struct HomepageView: View {
     var body: some View{
         
         
@@ -30,7 +30,8 @@ struct HomepageTestView: View {
                         .padding()
                     }
                     .navigationDestination(for: Int.self) { listing in
-                        Text("Offert detail view...")
+                        OfferDetailView()
+                            .navigationBarBackButtonHidden()
                     }
                 }
             }
@@ -40,5 +41,5 @@ struct HomepageTestView: View {
     }
 }
 #Preview {
-    HomepageTestView()
+    HomepageView()
 }
