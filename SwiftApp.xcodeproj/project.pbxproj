@@ -26,6 +26,17 @@
 		37DA1F552C9720D700880A36 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 37DA1F542C9720D700880A36 /* FirebaseFirestore */; };
 		37DA1F5E2C97293C00880A36 /* LeagueSpartan-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F5D2C97293C00880A36 /* LeagueSpartan-Regular.ttf */; };
 		37DA1F602C97296C00880A36 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F5F2C97296C00880A36 /* Montserrat-Regular.ttf */; };
+		A9FC136F2C993EEE00156C8F /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC136E2C993EEE00156C8F /* FormView.swift */; };
+		A9FC13712C9B1CCC00156C8F /* LeagueSpartan-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC13702C9B1CCC00156C8F /* LeagueSpartan-ExtraBold.ttf */; };
+		A9FC13732C9B1E4400156C8F /* LeagueSpartan-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC13722C9B1E4400156C8F /* LeagueSpartan-ExtraLight.ttf */; };
+		A9FC13752C9B1E4E00156C8F /* LeagueSpartan-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC13742C9B1E4E00156C8F /* LeagueSpartan-Light.ttf */; };
+		A9FC13772C9B1E5700156C8F /* LeagueSpartan-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC13762C9B1E5700156C8F /* LeagueSpartan-Medium.ttf */; };
+		A9FC13792C9B1E6200156C8F /* LeagueSpartan-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC13782C9B1E6200156C8F /* LeagueSpartan-SemiBold.ttf */; };
+		A9FC137D2C9B1E7D00156C8F /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC137C2C9B1E7D00156C8F /* Montserrat-ExtraBold.ttf */; };
+		A9FC137F2C9B1E8A00156C8F /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC137E2C9B1E8A00156C8F /* Montserrat-Italic.ttf */; };
+		A9FC13812C9B1E9200156C8F /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC13802C9B1E9200156C8F /* Montserrat-Light.ttf */; };
+		A9FC13832C9B1E9800156C8F /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC13822C9B1E9800156C8F /* Montserrat-Medium.ttf */; };
+		A9FC13852C9B1E9F00156C8F /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC13842C9B1E9F00156C8F /* Montserrat-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +75,17 @@
 		37DA1F5D2C97293C00880A36 /* LeagueSpartan-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Regular.ttf"; sourceTree = "<group>"; };
 		37DA1F5F2C97296C00880A36 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		37DA1F632C97337800880A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A9FC136E2C993EEE00156C8F /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		A9FC13702C9B1CCC00156C8F /* LeagueSpartan-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A9FC13722C9B1E4400156C8F /* LeagueSpartan-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-ExtraLight.ttf"; sourceTree = "<group>"; };
+		A9FC13742C9B1E4E00156C8F /* LeagueSpartan-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Light.ttf"; sourceTree = "<group>"; };
+		A9FC13762C9B1E5700156C8F /* LeagueSpartan-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Medium.ttf"; sourceTree = "<group>"; };
+		A9FC13782C9B1E6200156C8F /* LeagueSpartan-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-SemiBold.ttf"; sourceTree = "<group>"; };
+		A9FC137C2C9B1E7D00156C8F /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A9FC137E2C9B1E8A00156C8F /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		A9FC13802C9B1E9200156C8F /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		A9FC13822C9B1E9800156C8F /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		A9FC13842C9B1E9F00156C8F /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +184,7 @@
 		37DA1F352C9718B900880A36 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A9FC136D2C993EAD00156C8F /* Form */,
 				37DA1F3C2C97196900880A36 /* TestViews.swift */,
 			);
 			path = Views;
@@ -194,10 +217,28 @@
 		37DA1F582C97286500880A36 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				A9FC13742C9B1E4E00156C8F /* LeagueSpartan-Light.ttf */,
+				A9FC13722C9B1E4400156C8F /* LeagueSpartan-ExtraLight.ttf */,
+				A9FC13782C9B1E6200156C8F /* LeagueSpartan-SemiBold.ttf */,
+				A9FC137C2C9B1E7D00156C8F /* Montserrat-ExtraBold.ttf */,
+				A9FC13842C9B1E9F00156C8F /* Montserrat-SemiBold.ttf */,
+				A9FC13762C9B1E5700156C8F /* LeagueSpartan-Medium.ttf */,
+				A9FC13822C9B1E9800156C8F /* Montserrat-Medium.ttf */,
+				A9FC13802C9B1E9200156C8F /* Montserrat-Light.ttf */,
+				A9FC137E2C9B1E8A00156C8F /* Montserrat-Italic.ttf */,
+				A9FC13702C9B1CCC00156C8F /* LeagueSpartan-ExtraBold.ttf */,
 				37DA1F5D2C97293C00880A36 /* LeagueSpartan-Regular.ttf */,
 				37DA1F5F2C97296C00880A36 /* Montserrat-Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A9FC136D2C993EAD00156C8F /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				A9FC136E2C993EEE00156C8F /* FormView.swift */,
+			);
+			path = Form;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,10 +356,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				37DA1F4A2C971E7200880A36 /* GoogleService-Info.plist in Resources */,
+				A9FC137D2C9B1E7D00156C8F /* Montserrat-ExtraBold.ttf in Resources */,
+				A9FC13712C9B1CCC00156C8F /* LeagueSpartan-ExtraBold.ttf in Resources */,
+				A9FC137F2C9B1E8A00156C8F /* Montserrat-Italic.ttf in Resources */,
+				A9FC13792C9B1E6200156C8F /* LeagueSpartan-SemiBold.ttf in Resources */,
+				A9FC13732C9B1E4400156C8F /* LeagueSpartan-ExtraLight.ttf in Resources */,
 				37DA1F5E2C97293C00880A36 /* LeagueSpartan-Regular.ttf in Resources */,
+				A9FC13752C9B1E4E00156C8F /* LeagueSpartan-Light.ttf in Resources */,
 				37782CDB2C8E803D00913A91 /* Preview Assets.xcassets in Resources */,
+				A9FC13852C9B1E9F00156C8F /* Montserrat-SemiBold.ttf in Resources */,
 				37DA1F602C97296C00880A36 /* Montserrat-Regular.ttf in Resources */,
+				A9FC13832C9B1E9800156C8F /* Montserrat-Medium.ttf in Resources */,
+				A9FC13772C9B1E5700156C8F /* LeagueSpartan-Medium.ttf in Resources */,
 				37782CD82C8E803D00913A91 /* Assets.xcassets in Resources */,
+				A9FC13812C9B1E9200156C8F /* Montserrat-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +396,7 @@
 			files = (
 				37782CD62C8E803C00913A91 /* ContentView.swift in Sources */,
 				37DA1F3B2C97195C00880A36 /* TestVM.swift in Sources */,
+				A9FC136F2C993EEE00156C8F /* FormView.swift in Sources */,
 				37DA1F3D2C97196900880A36 /* TestViews.swift in Sources */,
 				37782CD42C8E803C00913A91 /* SwiftAppApp.swift in Sources */,
 				37DA1F392C97195200880A36 /* TestModels.swift in Sources */,
