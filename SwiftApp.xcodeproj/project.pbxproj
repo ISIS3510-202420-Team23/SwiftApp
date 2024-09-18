@@ -34,6 +34,8 @@
 		37DA1F772C99AC9800880A36 /* HomepageRentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F762C99AC9800880A36 /* HomepageRentView.swift */; };
 		37DA1F792C99ADD300880A36 /* OfferRentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F782C99ADD300880A36 /* OfferRentView.swift */; };
 		37DA1F7B2C99B18A00880A36 /* CreateMoreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F7A2C99B18A00880A36 /* CreateMoreButton.swift */; };
+		37DA1F7D2C99B60D00880A36 /* FiltersSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F7C2C99B60D00880A36 /* FiltersSearchView.swift */; };
+		37DA1F7F2C9B14CF00880A36 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F7E2C9B14CF00880A36 /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		37DA1F762C99AC9800880A36 /* HomepageRentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageRentView.swift; sourceTree = "<group>"; };
 		37DA1F782C99ADD300880A36 /* OfferRentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferRentView.swift; sourceTree = "<group>"; };
 		37DA1F7A2C99B18A00880A36 /* CreateMoreButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMoreButton.swift; sourceTree = "<group>"; };
+		37DA1F7C2C99B60D00880A36 /* FiltersSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersSearchView.swift; sourceTree = "<group>"; };
+		37DA1F7E2C9B14CF00880A36 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +247,8 @@
 				37DA1F732C98EC3C00880A36 /* OfferImageCarouselView.swift */,
 				37DA1F6C2C9866A100880A36 /* SearchAndFilterBar.swift */,
 				37DA1F6E2C989E3B00880A36 /* Heading.swift */,
+				37DA1F7C2C99B60D00880A36 /* FiltersSearchView.swift */,
+				37DA1F7E2C9B14CF00880A36 /* MainTabView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -402,6 +408,7 @@
 				37DA1F7B2C99B18A00880A36 /* CreateMoreButton.swift in Sources */,
 				37782CD62C8E803C00913A91 /* ContentView.swift in Sources */,
 				37DA1F6D2C9866A100880A36 /* SearchAndFilterBar.swift in Sources */,
+				37DA1F7F2C9B14CF00880A36 /* MainTabView.swift in Sources */,
 				37DA1F3B2C97195C00880A36 /* TestVM.swift in Sources */,
 				37DA1F772C99AC9800880A36 /* HomepageRentView.swift in Sources */,
 				37DA1F792C99ADD300880A36 /* OfferRentView.swift in Sources */,
@@ -409,6 +416,7 @@
 				37DA1F742C98EC3C00880A36 /* OfferImageCarouselView.swift in Sources */,
 				37DA1F712C98E7A500880A36 /* OfferDetailView.swift in Sources */,
 				37DA1F6F2C989E3B00880A36 /* Heading.swift in Sources */,
+				37DA1F7D2C99B60D00880A36 /* FiltersSearchView.swift in Sources */,
 				37DA1F6B2C9859D300880A36 /* OfferView.swift in Sources */,
 				37DA1F682C98553400880A36 /* HomepageView.swift in Sources */,
 				37DA1F392C97195200880A36 /* TestModels.swift in Sources */,

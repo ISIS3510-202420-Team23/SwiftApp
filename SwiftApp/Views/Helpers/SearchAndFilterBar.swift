@@ -14,7 +14,7 @@ struct SearchAndFilterBar: View {
                 .foregroundStyle(Color(hex: "0C356A"))
             
             VStack(alignment: .leading, spacing: 2){
-                Text ("Any Date - Add guests")
+                Text ("")
                     .font(.caption2)
                     .foregroundStyle(.gray)
             }
