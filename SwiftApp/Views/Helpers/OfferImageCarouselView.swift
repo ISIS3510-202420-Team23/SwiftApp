@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct OfferImageCarouselView: View {
-//    var images =[]
+   var images = [
+    "cityu-1",
+    "cityu-2"
+   ]
     var body: some View {
             TabView {
-                ForEach(0 ... 3, id: \.self) { image in
-                    Rectangle()
-//                    Image (image)
-//                        .resizable()
-//                        .scaledToFill()
+                ForEach(images, id: \.self) { image in
+                    
+                    Image (image)
+                        .resizable()
+                        .scaledToFill()
                 }
             }
             .tabViewStyle(.page)

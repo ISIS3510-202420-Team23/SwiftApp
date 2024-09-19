@@ -23,7 +23,7 @@ struct Heading: View {
             Spacer()
             
             // Imagen de perfil
-            Image(systemName: "person.crop.circle.fill")
+            Image("dani")
                 .resizable()
                 .frame(width: 67, height: 67)
                 .clipShape(Circle())

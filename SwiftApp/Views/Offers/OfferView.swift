@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct OfferView: View {
-//    var images = []
+
     
     var body: some View{
         VStack(spacing: 8){

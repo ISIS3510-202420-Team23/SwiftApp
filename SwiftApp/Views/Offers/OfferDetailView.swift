@@ -123,7 +123,7 @@ struct OfferDetailView: View {
                     
                     HStack {
                         
-                        Image(systemName: "person.crop.circle.fill")
+                        Image("pau")
                             .resizable()
                             .frame(width: 55, height: 55)
                             .clipShape(Circle())

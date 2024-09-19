@@ -14,6 +14,7 @@
 		37782CE52C8E803D00913A91 /* SwiftAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37782CE42C8E803D00913A91 /* SwiftAppTests.swift */; };
 		37782CEF2C8E803D00913A91 /* SwiftAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37782CEE2C8E803D00913A91 /* SwiftAppUITests.swift */; };
 		37782CF12C8E803D00913A91 /* SwiftAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37782CF02C8E803D00913A91 /* SwiftAppUITestsLaunchTests.swift */; };
+		378698E92C9CCD040096F1C3 /* MainTabLandlordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378698E82C9CCCED0096F1C3 /* MainTabLandlordView.swift */; };
 		37DA1F392C97195200880A36 /* TestModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F382C97195200880A36 /* TestModels.swift */; };
 		37DA1F3B2C97195C00880A36 /* TestVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F3A2C97195C00880A36 /* TestVM.swift */; };
 		37DA1F462C9719D700880A36 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F452C9719D700880A36 /* ColorExtensions.swift */; };
@@ -77,6 +78,7 @@
 		37782CEA2C8E803D00913A91 /* SwiftAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37782CEE2C8E803D00913A91 /* SwiftAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppUITests.swift; sourceTree = "<group>"; };
 		37782CF02C8E803D00913A91 /* SwiftAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		378698E82C9CCCED0096F1C3 /* MainTabLandlordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabLandlordView.swift; sourceTree = "<group>"; };
 		37DA1F382C97195200880A36 /* TestModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModels.swift; sourceTree = "<group>"; };
 		37DA1F3A2C97195C00880A36 /* TestVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVM.swift; sourceTree = "<group>"; };
 		37DA1F452C9719D700880A36 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
@@ -286,6 +288,7 @@
 		37DA1F722C98E9C000880A36 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				378698E82C9CCCED0096F1C3 /* MainTabLandlordView.swift */,
 				37DA1F732C98EC3C00880A36 /* OfferImageCarouselView.swift */,
 				37DA1F6C2C9866A100880A36 /* SearchAndFilterBar.swift */,
 				37DA1F6E2C989E3B00880A36 /* Heading.swift */,
@@ -469,6 +472,7 @@
 				37DA1F6D2C9866A100880A36 /* SearchAndFilterBar.swift in Sources */,
 				37DA1F7F2C9B14CF00880A36 /* MainTabView.swift in Sources */,
 				37DA1F3B2C97195C00880A36 /* TestVM.swift in Sources */,
+				378698E92C9CCD040096F1C3 /* MainTabLandlordView.swift in Sources */,
 				37DA1F772C99AC9800880A36 /* HomepageRentView.swift in Sources */,
 				37DA1F792C99ADD300880A36 /* OfferRentView.swift in Sources */,
 				37782CD42C8E803C00913A91 /* SwiftAppApp.swift in Sources */,
