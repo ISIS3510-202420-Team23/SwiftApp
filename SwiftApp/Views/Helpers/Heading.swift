@@ -12,11 +12,11 @@ struct Heading: View {
         HStack {
             VStack(alignment: .leading) {
                 Text("Welcome,")
-                    .font(.custom("LeagueSpartan-Regular", size: 32))
+                    .font(.custom("LeagueSpartan-ExtraBold", size: 32))
                     .foregroundColor(Color(hex: "0C356A"))
                     .fontWeight(.bold)
                 Text("Daniel")
-                    .font(.custom("LeagueSpartan-Regular", size: 32))
+                    .font(.custom("LeagueSpartan-ExtraBold", size: 32))
                     .foregroundColor(Color(hex: "FFB900"))
                     .fontWeight(.bold)
             }

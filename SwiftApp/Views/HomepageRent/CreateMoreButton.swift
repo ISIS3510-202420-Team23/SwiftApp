@@ -11,7 +11,7 @@ struct CreateMoreButton: View {
     var body: some View {
         HStack {
                 Text("Your listings")
-                    .font(.custom("LeagueSpartan-Regular", size: 32))
+                    .font(.custom("LeagueSpartan-SemiBold", size: 25))
                     .foregroundColor(Color(hex: "0C356A"))
                     .fontWeight(.bold)
             Spacer()
@@ -22,7 +22,7 @@ struct CreateMoreButton: View {
                 Text("+ Create more")
                     .foregroundStyle(.white)
                     .font(.subheadline)
-                    .frame(width: 140, height:50)
+                    .frame(width: 130, height:45)
                     .background(Color(hex: "0C356A"))
                     .clipShape(RoundedRectangle(cornerRadius: 12))
                 

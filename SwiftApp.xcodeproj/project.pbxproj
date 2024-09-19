@@ -34,19 +34,19 @@
 		37DA1F7B2C99B18A00880A36 /* CreateMoreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F7A2C99B18A00880A36 /* CreateMoreButton.swift */; };
 		37DA1F7D2C99B60D00880A36 /* FiltersSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F7C2C99B60D00880A36 /* FiltersSearchView.swift */; };
 		37DA1F7F2C9B14CF00880A36 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F7E2C9B14CF00880A36 /* MainTabView.swift */; };
+		37DA1FA22C9B31E900880A36 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F982C9B31E900880A36 /* Montserrat-Medium.ttf */; };
+		37DA1FA32C9B31E900880A36 /* LeagueSpartan-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F992C9B31E900880A36 /* LeagueSpartan-SemiBold.ttf */; };
+		37DA1FA42C9B31E900880A36 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F9A2C9B31E900880A36 /* Montserrat-SemiBold.ttf */; };
+		37DA1FA52C9B31E900880A36 /* LeagueSpartan-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F9B2C9B31E900880A36 /* LeagueSpartan-ExtraLight.ttf */; };
+		37DA1FA62C9B31E900880A36 /* LeagueSpartan-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F9C2C9B31E900880A36 /* LeagueSpartan-Medium.ttf */; };
+		37DA1FA72C9B31E900880A36 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F9D2C9B31E900880A36 /* Montserrat-Italic.ttf */; };
+		37DA1FA82C9B31E900880A36 /* LeagueSpartan-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F9E2C9B31E900880A36 /* LeagueSpartan-Light.ttf */; };
+		37DA1FA92C9B31E900880A36 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F9F2C9B31E900880A36 /* Montserrat-ExtraBold.ttf */; };
+		37DA1FAA2C9B31E900880A36 /* LeagueSpartan-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1FA02C9B31E900880A36 /* LeagueSpartan-ExtraBold.ttf */; };
+		37DA1FAB2C9B31E900880A36 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1FA12C9B31E900880A36 /* Montserrat-Light.ttf */; };
 		A9FC138A2C9B2B6B00156C8F /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC13892C9B2B6B00156C8F /* FormView.swift */; };
-		A9FC13AF2C9B2D3100156C8F /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC13A32C9B2D3100156C8F /* Montserrat-SemiBold.ttf */; };
-		A9FC13B02C9B2D3100156C8F /* LeagueSpartan-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC13A42C9B2D3100156C8F /* LeagueSpartan-SemiBold.ttf */; };
 		A9FC13B12C9B2D3100156C8F /* LeagueSpartan-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC13A52C9B2D3100156C8F /* LeagueSpartan-Regular.ttf */; };
-		A9FC13B22C9B2D3100156C8F /* LeagueSpartan-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC13A62C9B2D3100156C8F /* LeagueSpartan-Light.ttf */; };
-		A9FC13B32C9B2D3100156C8F /* LeagueSpartan-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC13A72C9B2D3100156C8F /* LeagueSpartan-ExtraBold.ttf */; };
-		A9FC13B42C9B2D3100156C8F /* LeagueSpartan-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC13A82C9B2D3100156C8F /* LeagueSpartan-ExtraLight.ttf */; };
-		A9FC13B52C9B2D3100156C8F /* LeagueSpartan-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC13A92C9B2D3100156C8F /* LeagueSpartan-Medium.ttf */; };
-		A9FC13B62C9B2D3100156C8F /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC13AA2C9B2D3100156C8F /* Montserrat-Italic.ttf */; };
-		A9FC13B72C9B2D3100156C8F /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC13AB2C9B2D3100156C8F /* Montserrat-Light.ttf */; };
-		A9FC13B82C9B2D3100156C8F /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC13AC2C9B2D3100156C8F /* Montserrat-Medium.ttf */; };
 		A9FC13B92C9B2D3100156C8F /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC13AD2C9B2D3100156C8F /* Montserrat-Regular.ttf */; };
-		A9FC13BA2C9B2D3100156C8F /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC13AE2C9B2D3100156C8F /* Montserrat-ExtraBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,19 +93,19 @@
 		37DA1F7A2C99B18A00880A36 /* CreateMoreButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMoreButton.swift; sourceTree = "<group>"; };
 		37DA1F7C2C99B60D00880A36 /* FiltersSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersSearchView.swift; sourceTree = "<group>"; };
 		37DA1F7E2C9B14CF00880A36 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		37DA1F982C9B31E900880A36 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Medium.ttf"; path = "../../../../Downloads/Archive/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		37DA1F992C9B31E900880A36 /* LeagueSpartan-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LeagueSpartan-SemiBold.ttf"; path = "../../../../Downloads/Archive/LeagueSpartan-SemiBold.ttf"; sourceTree = "<group>"; };
+		37DA1F9A2C9B31E900880A36 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.ttf"; path = "../../../../Downloads/Archive/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		37DA1F9B2C9B31E900880A36 /* LeagueSpartan-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LeagueSpartan-ExtraLight.ttf"; path = "../../../../Downloads/Archive/LeagueSpartan-ExtraLight.ttf"; sourceTree = "<group>"; };
+		37DA1F9C2C9B31E900880A36 /* LeagueSpartan-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LeagueSpartan-Medium.ttf"; path = "../../../../Downloads/Archive/LeagueSpartan-Medium.ttf"; sourceTree = "<group>"; };
+		37DA1F9D2C9B31E900880A36 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Italic.ttf"; path = "../../../../Downloads/Archive/Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		37DA1F9E2C9B31E900880A36 /* LeagueSpartan-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LeagueSpartan-Light.ttf"; path = "../../../../Downloads/Archive/LeagueSpartan-Light.ttf"; sourceTree = "<group>"; };
+		37DA1F9F2C9B31E900880A36 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraBold.ttf"; path = "../../../../Downloads/Archive/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		37DA1FA02C9B31E900880A36 /* LeagueSpartan-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LeagueSpartan-ExtraBold.ttf"; path = "../../../../Downloads/Archive/LeagueSpartan-ExtraBold.ttf"; sourceTree = "<group>"; };
+		37DA1FA12C9B31E900880A36 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Light.ttf"; path = "../../../../Downloads/Archive/Montserrat-Light.ttf"; sourceTree = "<group>"; };
 		A9FC13892C9B2B6B00156C8F /* FormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
-		A9FC13A32C9B2D3100156C8F /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.ttf"; path = "../../../../../../../../Downloads/SwiftApp-1754e556474f10018511baa0e2aab56cb06eb917/SwiftApp/Fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
-		A9FC13A42C9B2D3100156C8F /* LeagueSpartan-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LeagueSpartan-SemiBold.ttf"; path = "../../../../../../../../Downloads/SwiftApp-1754e556474f10018511baa0e2aab56cb06eb917/SwiftApp/Fonts/LeagueSpartan-SemiBold.ttf"; sourceTree = "<group>"; };
 		A9FC13A52C9B2D3100156C8F /* LeagueSpartan-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Regular.ttf"; sourceTree = "<group>"; };
-		A9FC13A62C9B2D3100156C8F /* LeagueSpartan-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LeagueSpartan-Light.ttf"; path = "../../../../../../../../Downloads/SwiftApp-1754e556474f10018511baa0e2aab56cb06eb917/SwiftApp/Fonts/LeagueSpartan-Light.ttf"; sourceTree = "<group>"; };
-		A9FC13A72C9B2D3100156C8F /* LeagueSpartan-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LeagueSpartan-ExtraBold.ttf"; path = "../../../../../../../../Downloads/SwiftApp-1754e556474f10018511baa0e2aab56cb06eb917/SwiftApp/Fonts/LeagueSpartan-ExtraBold.ttf"; sourceTree = "<group>"; };
-		A9FC13A82C9B2D3100156C8F /* LeagueSpartan-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LeagueSpartan-ExtraLight.ttf"; path = "../../../../../../../../Downloads/SwiftApp-1754e556474f10018511baa0e2aab56cb06eb917/SwiftApp/Fonts/LeagueSpartan-ExtraLight.ttf"; sourceTree = "<group>"; };
-		A9FC13A92C9B2D3100156C8F /* LeagueSpartan-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LeagueSpartan-Medium.ttf"; path = "../../../../../../../../Downloads/SwiftApp-1754e556474f10018511baa0e2aab56cb06eb917/SwiftApp/Fonts/LeagueSpartan-Medium.ttf"; sourceTree = "<group>"; };
-		A9FC13AA2C9B2D3100156C8F /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Italic.ttf"; path = "../../../../../../../../Downloads/SwiftApp-1754e556474f10018511baa0e2aab56cb06eb917/SwiftApp/Fonts/Montserrat-Italic.ttf"; sourceTree = "<group>"; };
-		A9FC13AB2C9B2D3100156C8F /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Light.ttf"; path = "../../../../../../../../Downloads/SwiftApp-1754e556474f10018511baa0e2aab56cb06eb917/SwiftApp/Fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
-		A9FC13AC2C9B2D3100156C8F /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Medium.ttf"; path = "../../../../../../../../Downloads/SwiftApp-1754e556474f10018511baa0e2aab56cb06eb917/SwiftApp/Fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		A9FC13AD2C9B2D3100156C8F /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
-		A9FC13AE2C9B2D3100156C8F /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraBold.ttf"; path = "../../../../../../../../Downloads/SwiftApp-1754e556474f10018511baa0e2aab56cb06eb917/SwiftApp/Fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +138,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3773D1A72C9BD5D6001FCEFC /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				37DA1F7C2C99B60D00880A36 /* FiltersSearchView.swift */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
 		37782CC72C8E803C00913A91 = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +212,7 @@
 		37DA1F352C9718B900880A36 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3773D1A72C9BD5D6001FCEFC /* Filters */,
 				A9FC13882C9B2B3B00156C8F /* Forms */,
 				37DA1F752C99AC6D00880A36 /* HomepageRent */,
 				37DA1F722C98E9C000880A36 /* Helpers */,
@@ -240,18 +249,18 @@
 		37DA1F582C97286500880A36 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				A9FC13A72C9B2D3100156C8F /* LeagueSpartan-ExtraBold.ttf */,
-				A9FC13A82C9B2D3100156C8F /* LeagueSpartan-ExtraLight.ttf */,
-				A9FC13A62C9B2D3100156C8F /* LeagueSpartan-Light.ttf */,
-				A9FC13A92C9B2D3100156C8F /* LeagueSpartan-Medium.ttf */,
+				37DA1FA02C9B31E900880A36 /* LeagueSpartan-ExtraBold.ttf */,
+				37DA1F9B2C9B31E900880A36 /* LeagueSpartan-ExtraLight.ttf */,
+				37DA1F9E2C9B31E900880A36 /* LeagueSpartan-Light.ttf */,
+				37DA1F9C2C9B31E900880A36 /* LeagueSpartan-Medium.ttf */,
+				37DA1F992C9B31E900880A36 /* LeagueSpartan-SemiBold.ttf */,
+				37DA1F9F2C9B31E900880A36 /* Montserrat-ExtraBold.ttf */,
+				37DA1F9D2C9B31E900880A36 /* Montserrat-Italic.ttf */,
+				37DA1FA12C9B31E900880A36 /* Montserrat-Light.ttf */,
+				37DA1F982C9B31E900880A36 /* Montserrat-Medium.ttf */,
+				37DA1F9A2C9B31E900880A36 /* Montserrat-SemiBold.ttf */,
 				A9FC13A52C9B2D3100156C8F /* LeagueSpartan-Regular.ttf */,
-				A9FC13A42C9B2D3100156C8F /* LeagueSpartan-SemiBold.ttf */,
-				A9FC13AE2C9B2D3100156C8F /* Montserrat-ExtraBold.ttf */,
-				A9FC13AA2C9B2D3100156C8F /* Montserrat-Italic.ttf */,
-				A9FC13AB2C9B2D3100156C8F /* Montserrat-Light.ttf */,
-				A9FC13AC2C9B2D3100156C8F /* Montserrat-Medium.ttf */,
 				A9FC13AD2C9B2D3100156C8F /* Montserrat-Regular.ttf */,
-				A9FC13A32C9B2D3100156C8F /* Montserrat-SemiBold.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -280,7 +289,6 @@
 				37DA1F732C98EC3C00880A36 /* OfferImageCarouselView.swift */,
 				37DA1F6C2C9866A100880A36 /* SearchAndFilterBar.swift */,
 				37DA1F6E2C989E3B00880A36 /* Heading.swift */,
-				37DA1F7C2C99B60D00880A36 /* FiltersSearchView.swift */,
 				37DA1F7E2C9B14CF00880A36 /* MainTabView.swift */,
 			);
 			path = Helpers;
@@ -417,20 +425,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9FC13B72C9B2D3100156C8F /* Montserrat-Light.ttf in Resources */,
-				A9FC13B22C9B2D3100156C8F /* LeagueSpartan-Light.ttf in Resources */,
+				37DA1FAB2C9B31E900880A36 /* Montserrat-Light.ttf in Resources */,
 				A9FC13B92C9B2D3100156C8F /* Montserrat-Regular.ttf in Resources */,
 				A9FC13B12C9B2D3100156C8F /* LeagueSpartan-Regular.ttf in Resources */,
-				A9FC13B62C9B2D3100156C8F /* Montserrat-Italic.ttf in Resources */,
-				A9FC13B52C9B2D3100156C8F /* LeagueSpartan-Medium.ttf in Resources */,
+				37DA1FA72C9B31E900880A36 /* Montserrat-Italic.ttf in Resources */,
+				37DA1FA62C9B31E900880A36 /* LeagueSpartan-Medium.ttf in Resources */,
+				37DA1FA82C9B31E900880A36 /* LeagueSpartan-Light.ttf in Resources */,
 				37DA1F4A2C971E7200880A36 /* GoogleService-Info.plist in Resources */,
 				37782CDB2C8E803D00913A91 /* Preview Assets.xcassets in Resources */,
-				A9FC13B02C9B2D3100156C8F /* LeagueSpartan-SemiBold.ttf in Resources */,
-				A9FC13B32C9B2D3100156C8F /* LeagueSpartan-ExtraBold.ttf in Resources */,
-				A9FC13BA2C9B2D3100156C8F /* Montserrat-ExtraBold.ttf in Resources */,
-				A9FC13AF2C9B2D3100156C8F /* Montserrat-SemiBold.ttf in Resources */,
-				A9FC13B82C9B2D3100156C8F /* Montserrat-Medium.ttf in Resources */,
-				A9FC13B42C9B2D3100156C8F /* LeagueSpartan-ExtraLight.ttf in Resources */,
+				37DA1FAA2C9B31E900880A36 /* LeagueSpartan-ExtraBold.ttf in Resources */,
+				37DA1FA32C9B31E900880A36 /* LeagueSpartan-SemiBold.ttf in Resources */,
+				37DA1FA92C9B31E900880A36 /* Montserrat-ExtraBold.ttf in Resources */,
+				37DA1FA22C9B31E900880A36 /* Montserrat-Medium.ttf in Resources */,
+				37DA1FA42C9B31E900880A36 /* Montserrat-SemiBold.ttf in Resources */,
+				37DA1FA52C9B31E900880A36 /* LeagueSpartan-ExtraLight.ttf in Resources */,
 				37782CD82C8E803D00913A91 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
