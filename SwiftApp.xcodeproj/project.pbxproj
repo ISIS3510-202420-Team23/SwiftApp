@@ -14,9 +14,9 @@
 		37782CE52C8E803D00913A91 /* SwiftAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37782CE42C8E803D00913A91 /* SwiftAppTests.swift */; };
 		37782CEF2C8E803D00913A91 /* SwiftAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37782CEE2C8E803D00913A91 /* SwiftAppUITests.swift */; };
 		37782CF12C8E803D00913A91 /* SwiftAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37782CF02C8E803D00913A91 /* SwiftAppUITestsLaunchTests.swift */; };
-		37DA1F392C97195200880A36 /* TestModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F382C97195200880A36 /* TestModels.swift */; };
+		378698E92C9CCD040096F1C3 /* MainTabLandlordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378698E82C9CCCED0096F1C3 /* MainTabLandlordView.swift */; };
+		378698EB2C9CD3600096F1C3 /* OfferModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378698EA2C9CD3570096F1C3 /* OfferModel.swift */; };
 		37DA1F3B2C97195C00880A36 /* TestVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F3A2C97195C00880A36 /* TestVM.swift */; };
-		37DA1F3D2C97196900880A36 /* TestViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F3C2C97196900880A36 /* TestViews.swift */; };
 		37DA1F462C9719D700880A36 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F452C9719D700880A36 /* ColorExtensions.swift */; };
 		37DA1F4A2C971E7200880A36 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F492C971E7200880A36 /* GoogleService-Info.plist */; };
 		37DA1F4D2C9720D700880A36 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 37DA1F4C2C9720D700880A36 /* FirebaseAnalytics */; };
@@ -24,20 +24,30 @@
 		37DA1F512C9720D700880A36 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 37DA1F502C9720D700880A36 /* FirebaseCrashlytics */; };
 		37DA1F532C9720D700880A36 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 37DA1F522C9720D700880A36 /* FirebaseDatabase */; };
 		37DA1F552C9720D700880A36 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 37DA1F542C9720D700880A36 /* FirebaseFirestore */; };
-		37DA1F5E2C97293C00880A36 /* LeagueSpartan-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F5D2C97293C00880A36 /* LeagueSpartan-Regular.ttf */; };
-		37DA1F602C97296C00880A36 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F5F2C97296C00880A36 /* Montserrat-Regular.ttf */; };
-		9CFDF5302C98A48900B66B33 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 9CFDF52F2C98A48900B66B33 /* GoogleSignIn */; };
-		9CFDF5322C98A48900B66B33 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9CFDF5312C98A48900B66B33 /* GoogleSignInSwift */; };
-		9CFDF5342C98D76800B66B33 /* WelcomePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDF5332C98D76800B66B33 /* WelcomePageModel.swift */; };
-		9CFDF5362C98D94600B66B33 /* WelcomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDF5352C98D94600B66B33 /* WelcomePageView.swift */; };
-		9CFDF5382C98DF7D00B66B33 /* WelcomeIndividualPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDF5372C98DF7D00B66B33 /* WelcomeIndividualPageView.swift */; };
-		9CFDF53A2C9A97B500B66B33 /* CircularArrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDF5392C9A97B500B66B33 /* CircularArrowButton.swift */; };
-		9CFDF53C2C9A9C9800B66B33 /* CustomIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDF53B2C9A9C9800B66B33 /* CustomIndicatorView.swift */; };
-		9CFDF53E2C9AA6F600B66B33 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDF53D2C9AA6F600B66B33 /* AuthenticationView.swift */; };
-		9CFDF5422C9B4E3200B66B33 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDF5412C9B4E3200B66B33 /* AuthenticationViewModel.swift */; };
-		9CFDF5442C9B510A00B66B33 /* UIApplication+RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDF5432C9B510A00B66B33 /* UIApplication+RootViewController.swift */; };
-		9CFDF5462C9B572F00B66B33 /* AuthenticationResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDF5452C9B572F00B66B33 /* AuthenticationResultModel.swift */; };
-		9CFDF5482C9BB2DC00B66B33 /* ProfilePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDF5472C9BB2DC00B66B33 /* ProfilePickerView.swift */; };
+		37DA1F682C98553400880A36 /* HomepageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F672C98553400880A36 /* HomepageView.swift */; };
+		37DA1F6B2C9859D300880A36 /* OfferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F6A2C9859D300880A36 /* OfferView.swift */; };
+		37DA1F6D2C9866A100880A36 /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F6C2C9866A100880A36 /* SearchAndFilterBar.swift */; };
+		37DA1F6F2C989E3B00880A36 /* Heading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F6E2C989E3B00880A36 /* Heading.swift */; };
+		37DA1F712C98E7A500880A36 /* OfferDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F702C98E7A500880A36 /* OfferDetailView.swift */; };
+		37DA1F742C98EC3C00880A36 /* OfferImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F732C98EC3C00880A36 /* OfferImageCarouselView.swift */; };
+		37DA1F772C99AC9800880A36 /* HomepageRentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F762C99AC9800880A36 /* HomepageRentView.swift */; };
+		37DA1F792C99ADD300880A36 /* OfferRentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F782C99ADD300880A36 /* OfferRentView.swift */; };
+		37DA1F7B2C99B18A00880A36 /* CreateMoreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F7A2C99B18A00880A36 /* CreateMoreButton.swift */; };
+		37DA1F7D2C99B60D00880A36 /* FiltersSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F7C2C99B60D00880A36 /* FiltersSearchView.swift */; };
+		37DA1F7F2C9B14CF00880A36 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F7E2C9B14CF00880A36 /* MainTabView.swift */; };
+		37DA1FA22C9B31E900880A36 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F982C9B31E900880A36 /* Montserrat-Medium.ttf */; };
+		37DA1FA32C9B31E900880A36 /* LeagueSpartan-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F992C9B31E900880A36 /* LeagueSpartan-SemiBold.ttf */; };
+		37DA1FA42C9B31E900880A36 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F9A2C9B31E900880A36 /* Montserrat-SemiBold.ttf */; };
+		37DA1FA52C9B31E900880A36 /* LeagueSpartan-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F9B2C9B31E900880A36 /* LeagueSpartan-ExtraLight.ttf */; };
+		37DA1FA62C9B31E900880A36 /* LeagueSpartan-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F9C2C9B31E900880A36 /* LeagueSpartan-Medium.ttf */; };
+		37DA1FA72C9B31E900880A36 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F9D2C9B31E900880A36 /* Montserrat-Italic.ttf */; };
+		37DA1FA82C9B31E900880A36 /* LeagueSpartan-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F9E2C9B31E900880A36 /* LeagueSpartan-Light.ttf */; };
+		37DA1FA92C9B31E900880A36 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F9F2C9B31E900880A36 /* Montserrat-ExtraBold.ttf */; };
+		37DA1FAA2C9B31E900880A36 /* LeagueSpartan-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1FA02C9B31E900880A36 /* LeagueSpartan-ExtraBold.ttf */; };
+		37DA1FAB2C9B31E900880A36 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1FA12C9B31E900880A36 /* Montserrat-Light.ttf */; };
+		A9FC138A2C9B2B6B00156C8F /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC13892C9B2B6B00156C8F /* FormView.swift */; };
+		A9FC13B12C9B2D3100156C8F /* LeagueSpartan-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC13A52C9B2D3100156C8F /* LeagueSpartan-Regular.ttf */; };
+		A9FC13B92C9B2D3100156C8F /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC13AD2C9B2D3100156C8F /* Montserrat-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,24 +78,37 @@
 		37782CEA2C8E803D00913A91 /* SwiftAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37782CEE2C8E803D00913A91 /* SwiftAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppUITests.swift; sourceTree = "<group>"; };
 		37782CF02C8E803D00913A91 /* SwiftAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		37DA1F382C97195200880A36 /* TestModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModels.swift; sourceTree = "<group>"; };
+		378698E82C9CCCED0096F1C3 /* MainTabLandlordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabLandlordView.swift; sourceTree = "<group>"; };
+		378698EA2C9CD3570096F1C3 /* OfferModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferModel.swift; sourceTree = "<group>"; };
+		378698EC2C9DAA830096F1C3 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		37DA1F3A2C97195C00880A36 /* TestVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVM.swift; sourceTree = "<group>"; };
-		37DA1F3C2C97196900880A36 /* TestViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViews.swift; sourceTree = "<group>"; };
 		37DA1F452C9719D700880A36 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
 		37DA1F492C971E7200880A36 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		37DA1F5D2C97293C00880A36 /* LeagueSpartan-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Regular.ttf"; sourceTree = "<group>"; };
-		37DA1F5F2C97296C00880A36 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		37DA1F632C97337800880A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		9CFDF5332C98D76800B66B33 /* WelcomePageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageModel.swift; sourceTree = "<group>"; };
-		9CFDF5352C98D94600B66B33 /* WelcomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageView.swift; sourceTree = "<group>"; };
-		9CFDF5372C98DF7D00B66B33 /* WelcomeIndividualPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeIndividualPageView.swift; sourceTree = "<group>"; };
-		9CFDF5392C9A97B500B66B33 /* CircularArrowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularArrowButton.swift; sourceTree = "<group>"; };
-		9CFDF53B2C9A9C9800B66B33 /* CustomIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIndicatorView.swift; sourceTree = "<group>"; };
-		9CFDF53D2C9AA6F600B66B33 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
-		9CFDF5412C9B4E3200B66B33 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
-		9CFDF5432C9B510A00B66B33 /* UIApplication+RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+RootViewController.swift"; sourceTree = "<group>"; };
-		9CFDF5452C9B572F00B66B33 /* AuthenticationResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationResultModel.swift; sourceTree = "<group>"; };
-		9CFDF5472C9BB2DC00B66B33 /* ProfilePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePickerView.swift; sourceTree = "<group>"; };
+		37DA1F672C98553400880A36 /* HomepageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageView.swift; sourceTree = "<group>"; };
+		37DA1F6A2C9859D300880A36 /* OfferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferView.swift; sourceTree = "<group>"; };
+		37DA1F6C2C9866A100880A36 /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
+		37DA1F6E2C989E3B00880A36 /* Heading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heading.swift; sourceTree = "<group>"; };
+		37DA1F702C98E7A500880A36 /* OfferDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailView.swift; sourceTree = "<group>"; };
+		37DA1F732C98EC3C00880A36 /* OfferImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferImageCarouselView.swift; sourceTree = "<group>"; };
+		37DA1F762C99AC9800880A36 /* HomepageRentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageRentView.swift; sourceTree = "<group>"; };
+		37DA1F782C99ADD300880A36 /* OfferRentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferRentView.swift; sourceTree = "<group>"; };
+		37DA1F7A2C99B18A00880A36 /* CreateMoreButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMoreButton.swift; sourceTree = "<group>"; };
+		37DA1F7C2C99B60D00880A36 /* FiltersSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersSearchView.swift; sourceTree = "<group>"; };
+		37DA1F7E2C9B14CF00880A36 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		37DA1F982C9B31E900880A36 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Medium.ttf"; path = "../../../../Downloads/Archive/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		37DA1F992C9B31E900880A36 /* LeagueSpartan-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LeagueSpartan-SemiBold.ttf"; path = "../../../../Downloads/Archive/LeagueSpartan-SemiBold.ttf"; sourceTree = "<group>"; };
+		37DA1F9A2C9B31E900880A36 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.ttf"; path = "../../../../Downloads/Archive/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		37DA1F9B2C9B31E900880A36 /* LeagueSpartan-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LeagueSpartan-ExtraLight.ttf"; path = "../../../../Downloads/Archive/LeagueSpartan-ExtraLight.ttf"; sourceTree = "<group>"; };
+		37DA1F9C2C9B31E900880A36 /* LeagueSpartan-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LeagueSpartan-Medium.ttf"; path = "../../../../Downloads/Archive/LeagueSpartan-Medium.ttf"; sourceTree = "<group>"; };
+		37DA1F9D2C9B31E900880A36 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Italic.ttf"; path = "../../../../Downloads/Archive/Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		37DA1F9E2C9B31E900880A36 /* LeagueSpartan-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LeagueSpartan-Light.ttf"; path = "../../../../Downloads/Archive/LeagueSpartan-Light.ttf"; sourceTree = "<group>"; };
+		37DA1F9F2C9B31E900880A36 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraBold.ttf"; path = "../../../../Downloads/Archive/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		37DA1FA02C9B31E900880A36 /* LeagueSpartan-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LeagueSpartan-ExtraBold.ttf"; path = "../../../../Downloads/Archive/LeagueSpartan-ExtraBold.ttf"; sourceTree = "<group>"; };
+		37DA1FA12C9B31E900880A36 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Light.ttf"; path = "../../../../Downloads/Archive/Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		A9FC13892C9B2B6B00156C8F /* FormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		A9FC13A52C9B2D3100156C8F /* LeagueSpartan-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Regular.ttf"; sourceTree = "<group>"; };
+		A9FC13AD2C9B2D3100156C8F /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +118,9 @@
 			files = (
 				37DA1F512C9720D700880A36 /* FirebaseCrashlytics in Frameworks */,
 				37DA1F4D2C9720D700880A36 /* FirebaseAnalytics in Frameworks */,
-				9CFDF5322C98A48900B66B33 /* GoogleSignInSwift in Frameworks */,
 				37DA1F532C9720D700880A36 /* FirebaseDatabase in Frameworks */,
 				37DA1F552C9720D700880A36 /* FirebaseFirestore in Frameworks */,
 				37DA1F4F2C9720D700880A36 /* FirebaseAuth in Frameworks */,
-				9CFDF5302C98A48900B66B33 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,9 +141,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3773D1A72C9BD5D6001FCEFC /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				37DA1F7C2C99B60D00880A36 /* FiltersSearchView.swift */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
 		37782CC72C8E803C00913A91 = {
 			isa = PBXGroup;
 			children = (
+				378698EC2C9DAA830096F1C3 /* .gitignore */,
 				37782CD22C8E803C00913A91 /* SwiftApp */,
 				37782CE32C8E803D00913A91 /* SwiftAppTests */,
 				37782CED2C8E803D00913A91 /* SwiftAppUITests */,
@@ -186,8 +216,12 @@
 		37DA1F352C9718B900880A36 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9CFDF52B2C98948500B66B33 /* WelcomePage */,
-				37DA1F3C2C97196900880A36 /* TestViews.swift */,
+				3773D1A72C9BD5D6001FCEFC /* Filters */,
+				A9FC13882C9B2B3B00156C8F /* Forms */,
+				37DA1F752C99AC6D00880A36 /* HomepageRent */,
+				37DA1F722C98E9C000880A36 /* Helpers */,
+				37DA1F662C9854B300880A36 /* Homepage */,
+				37DA1F692C98599A00880A36 /* Offers */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,7 +230,6 @@
 			isa = PBXGroup;
 			children = (
 				37DA1F3A2C97195C00880A36 /* TestVM.swift */,
-				9CFDF5412C9B4E3200B66B33 /* AuthenticationViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -204,9 +237,7 @@
 		37DA1F372C9718E600880A36 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				37DA1F382C97195200880A36 /* TestModels.swift */,
-				9CFDF5332C98D76800B66B33 /* WelcomePageModel.swift */,
-				9CFDF5452C9B572F00B66B33 /* AuthenticationResultModel.swift */,
+				378698EA2C9CD3570096F1C3 /* OfferModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -215,7 +246,6 @@
 			isa = PBXGroup;
 			children = (
 				37DA1F452C9719D700880A36 /* ColorExtensions.swift */,
-				9CFDF5432C9B510A00B66B33 /* UIApplication+RootViewController.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -223,23 +253,67 @@
 		37DA1F582C97286500880A36 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				37DA1F5D2C97293C00880A36 /* LeagueSpartan-Regular.ttf */,
-				37DA1F5F2C97296C00880A36 /* Montserrat-Regular.ttf */,
+				37DA1FA02C9B31E900880A36 /* LeagueSpartan-ExtraBold.ttf */,
+				37DA1F9B2C9B31E900880A36 /* LeagueSpartan-ExtraLight.ttf */,
+				37DA1F9E2C9B31E900880A36 /* LeagueSpartan-Light.ttf */,
+				37DA1F9C2C9B31E900880A36 /* LeagueSpartan-Medium.ttf */,
+				37DA1F992C9B31E900880A36 /* LeagueSpartan-SemiBold.ttf */,
+				37DA1F9F2C9B31E900880A36 /* Montserrat-ExtraBold.ttf */,
+				37DA1F9D2C9B31E900880A36 /* Montserrat-Italic.ttf */,
+				37DA1FA12C9B31E900880A36 /* Montserrat-Light.ttf */,
+				37DA1F982C9B31E900880A36 /* Montserrat-Medium.ttf */,
+				37DA1F9A2C9B31E900880A36 /* Montserrat-SemiBold.ttf */,
+				A9FC13A52C9B2D3100156C8F /* LeagueSpartan-Regular.ttf */,
+				A9FC13AD2C9B2D3100156C8F /* Montserrat-Regular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		9CFDF52B2C98948500B66B33 /* WelcomePage */ = {
+		37DA1F662C9854B300880A36 /* Homepage */ = {
 			isa = PBXGroup;
 			children = (
-				9CFDF5352C98D94600B66B33 /* WelcomePageView.swift */,
-				9CFDF5372C98DF7D00B66B33 /* WelcomeIndividualPageView.swift */,
-				9CFDF5392C9A97B500B66B33 /* CircularArrowButton.swift */,
-				9CFDF53B2C9A9C9800B66B33 /* CustomIndicatorView.swift */,
-				9CFDF53D2C9AA6F600B66B33 /* AuthenticationView.swift */,
-				9CFDF5472C9BB2DC00B66B33 /* ProfilePickerView.swift */,
+				37DA1F672C98553400880A36 /* HomepageView.swift */,
 			);
-			path = WelcomePage;
+			path = Homepage;
+			sourceTree = "<group>";
+		};
+		37DA1F692C98599A00880A36 /* Offers */ = {
+			isa = PBXGroup;
+			children = (
+				37DA1F6A2C9859D300880A36 /* OfferView.swift */,
+				37DA1F702C98E7A500880A36 /* OfferDetailView.swift */,
+				37DA1F782C99ADD300880A36 /* OfferRentView.swift */,
+			);
+			path = Offers;
+			sourceTree = "<group>";
+		};
+		37DA1F722C98E9C000880A36 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				378698E82C9CCCED0096F1C3 /* MainTabLandlordView.swift */,
+				37DA1F732C98EC3C00880A36 /* OfferImageCarouselView.swift */,
+				37DA1F6C2C9866A100880A36 /* SearchAndFilterBar.swift */,
+				37DA1F6E2C989E3B00880A36 /* Heading.swift */,
+				37DA1F7E2C9B14CF00880A36 /* MainTabView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		37DA1F752C99AC6D00880A36 /* HomepageRent */ = {
+			isa = PBXGroup;
+			children = (
+				37DA1F762C99AC9800880A36 /* HomepageRentView.swift */,
+				37DA1F7A2C99B18A00880A36 /* CreateMoreButton.swift */,
+			);
+			path = HomepageRent;
+			sourceTree = "<group>";
+		};
+		A9FC13882C9B2B3B00156C8F /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				A9FC13892C9B2B6B00156C8F /* FormView.swift */,
+			);
+			path = Forms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,8 +338,6 @@
 				37DA1F502C9720D700880A36 /* FirebaseCrashlytics */,
 				37DA1F522C9720D700880A36 /* FirebaseDatabase */,
 				37DA1F542C9720D700880A36 /* FirebaseFirestore */,
-				9CFDF52F2C98A48900B66B33 /* GoogleSignIn */,
-				9CFDF5312C98A48900B66B33 /* GoogleSignInSwift */,
 			);
 			productName = SwiftApp;
 			productReference = 37782CD02C8E803C00913A91 /* SwiftApp.app */;
@@ -341,7 +413,6 @@
 			mainGroup = 37782CC72C8E803C00913A91;
 			packageReferences = (
 				37DA1F4B2C9720D700880A36 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				9CFDF52E2C98A48900B66B33 /* XCRemoteSwiftPackageReference "GoogleSignin-IOS" */,
 			);
 			productRefGroup = 37782CD12C8E803C00913A91 /* Products */;
 			projectDirPath = "";
@@ -359,10 +430,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37DA1FAB2C9B31E900880A36 /* Montserrat-Light.ttf in Resources */,
+				A9FC13B92C9B2D3100156C8F /* Montserrat-Regular.ttf in Resources */,
+				A9FC13B12C9B2D3100156C8F /* LeagueSpartan-Regular.ttf in Resources */,
+				37DA1FA72C9B31E900880A36 /* Montserrat-Italic.ttf in Resources */,
+				37DA1FA62C9B31E900880A36 /* LeagueSpartan-Medium.ttf in Resources */,
+				37DA1FA82C9B31E900880A36 /* LeagueSpartan-Light.ttf in Resources */,
 				37DA1F4A2C971E7200880A36 /* GoogleService-Info.plist in Resources */,
-				37DA1F5E2C97293C00880A36 /* LeagueSpartan-Regular.ttf in Resources */,
 				37782CDB2C8E803D00913A91 /* Preview Assets.xcassets in Resources */,
-				37DA1F602C97296C00880A36 /* Montserrat-Regular.ttf in Resources */,
+				37DA1FAA2C9B31E900880A36 /* LeagueSpartan-ExtraBold.ttf in Resources */,
+				37DA1FA32C9B31E900880A36 /* LeagueSpartan-SemiBold.ttf in Resources */,
+				37DA1FA92C9B31E900880A36 /* Montserrat-ExtraBold.ttf in Resources */,
+				37DA1FA22C9B31E900880A36 /* Montserrat-Medium.ttf in Resources */,
+				37DA1FA42C9B31E900880A36 /* Montserrat-SemiBold.ttf in Resources */,
+				37DA1FA52C9B31E900880A36 /* LeagueSpartan-ExtraLight.ttf in Resources */,
 				37782CD82C8E803D00913A91 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,21 +469,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CFDF5442C9B510A00B66B33 /* UIApplication+RootViewController.swift in Sources */,
+				37DA1F7B2C99B18A00880A36 /* CreateMoreButton.swift in Sources */,
 				37782CD62C8E803C00913A91 /* ContentView.swift in Sources */,
+				37DA1F6D2C9866A100880A36 /* SearchAndFilterBar.swift in Sources */,
+				37DA1F7F2C9B14CF00880A36 /* MainTabView.swift in Sources */,
 				37DA1F3B2C97195C00880A36 /* TestVM.swift in Sources */,
-				9CFDF5422C9B4E3200B66B33 /* AuthenticationViewModel.swift in Sources */,
-				37DA1F3D2C97196900880A36 /* TestViews.swift in Sources */,
-				9CFDF5342C98D76800B66B33 /* WelcomePageModel.swift in Sources */,
-				9CFDF53E2C9AA6F600B66B33 /* AuthenticationView.swift in Sources */,
-				9CFDF53A2C9A97B500B66B33 /* CircularArrowButton.swift in Sources */,
-				9CFDF5382C98DF7D00B66B33 /* WelcomeIndividualPageView.swift in Sources */,
-				9CFDF5482C9BB2DC00B66B33 /* ProfilePickerView.swift in Sources */,
-				9CFDF5462C9B572F00B66B33 /* AuthenticationResultModel.swift in Sources */,
-				9CFDF53C2C9A9C9800B66B33 /* CustomIndicatorView.swift in Sources */,
-				9CFDF5362C98D94600B66B33 /* WelcomePageView.swift in Sources */,
+				378698E92C9CCD040096F1C3 /* MainTabLandlordView.swift in Sources */,
+				37DA1F772C99AC9800880A36 /* HomepageRentView.swift in Sources */,
+				37DA1F792C99ADD300880A36 /* OfferRentView.swift in Sources */,
 				37782CD42C8E803C00913A91 /* SwiftAppApp.swift in Sources */,
-				37DA1F392C97195200880A36 /* TestModels.swift in Sources */,
+				37DA1F742C98EC3C00880A36 /* OfferImageCarouselView.swift in Sources */,
+				37DA1F712C98E7A500880A36 /* OfferDetailView.swift in Sources */,
+				37DA1F6F2C989E3B00880A36 /* Heading.swift in Sources */,
+				37DA1F7D2C99B60D00880A36 /* FiltersSearchView.swift in Sources */,
+				378698EB2C9CD3600096F1C3 /* OfferModel.swift in Sources */,
+				37DA1F6B2C9859D300880A36 /* OfferView.swift in Sources */,
+				37DA1F682C98553400880A36 /* HomepageView.swift in Sources */,
+				A9FC138A2C9B2B6B00156C8F /* FormView.swift in Sources */,
 				37DA1F462C9719D700880A36 /* ColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -743,14 +826,6 @@
 				minimumVersion = 11.2.0;
 			};
 		};
-		9CFDF52E2C98A48900B66B33 /* XCRemoteSwiftPackageReference "GoogleSignin-IOS" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/google/GoogleSignin-IOS";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 8.0.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -778,16 +853,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 37DA1F4B2C9720D700880A36 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
-		};
-		9CFDF52F2C98A48900B66B33 /* GoogleSignIn */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9CFDF52E2C98A48900B66B33 /* XCRemoteSwiftPackageReference "GoogleSignin-IOS" */;
-			productName = GoogleSignIn;
-		};
-		9CFDF5312C98A48900B66B33 /* GoogleSignInSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9CFDF52E2C98A48900B66B33 /* XCRemoteSwiftPackageReference "GoogleSignin-IOS" */;
-			productName = GoogleSignInSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
