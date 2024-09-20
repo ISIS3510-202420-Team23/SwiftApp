@@ -34,7 +34,6 @@
 		9CFDF53A2C9A97B500B66B33 /* CircularArrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDF5392C9A97B500B66B33 /* CircularArrowButton.swift */; };
 		9CFDF53C2C9A9C9800B66B33 /* CustomIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDF53B2C9A9C9800B66B33 /* CustomIndicatorView.swift */; };
 		9CFDF53E2C9AA6F600B66B33 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDF53D2C9AA6F600B66B33 /* AuthenticationView.swift */; };
-		9CFDF5402C9B334300B66B33 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDF53F2C9B334300B66B33 /* AuthenticationManager.swift */; };
 		9CFDF5422C9B4E3200B66B33 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDF5412C9B4E3200B66B33 /* AuthenticationViewModel.swift */; };
 		9CFDF5442C9B510A00B66B33 /* UIApplication+RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDF5432C9B510A00B66B33 /* UIApplication+RootViewController.swift */; };
 		9CFDF5462C9B572F00B66B33 /* AuthenticationResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDF5452C9B572F00B66B33 /* AuthenticationResultModel.swift */; };
@@ -83,7 +82,6 @@
 		9CFDF5392C9A97B500B66B33 /* CircularArrowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularArrowButton.swift; sourceTree = "<group>"; };
 		9CFDF53B2C9A9C9800B66B33 /* CustomIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIndicatorView.swift; sourceTree = "<group>"; };
 		9CFDF53D2C9AA6F600B66B33 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
-		9CFDF53F2C9B334300B66B33 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		9CFDF5412C9B4E3200B66B33 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		9CFDF5432C9B510A00B66B33 /* UIApplication+RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+RootViewController.swift"; sourceTree = "<group>"; };
 		9CFDF5452C9B572F00B66B33 /* AuthenticationResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationResultModel.swift; sourceTree = "<group>"; };
@@ -198,7 +196,6 @@
 			isa = PBXGroup;
 			children = (
 				37DA1F3A2C97195C00880A36 /* TestVM.swift */,
-				9CFDF53F2C9B334300B66B33 /* AuthenticationManager.swift */,
 				9CFDF5412C9B4E3200B66B33 /* AuthenticationViewModel.swift */,
 			);
 			path = ViewModels;
@@ -400,7 +397,6 @@
 				9CFDF53E2C9AA6F600B66B33 /* AuthenticationView.swift in Sources */,
 				9CFDF53A2C9A97B500B66B33 /* CircularArrowButton.swift in Sources */,
 				9CFDF5382C98DF7D00B66B33 /* WelcomeIndividualPageView.swift in Sources */,
-				9CFDF5402C9B334300B66B33 /* AuthenticationManager.swift in Sources */,
 				9CFDF5482C9BB2DC00B66B33 /* ProfilePickerView.swift in Sources */,
 				9CFDF5462C9B572F00B66B33 /* AuthenticationResultModel.swift in Sources */,
 				9CFDF53C2C9A9C9800B66B33 /* CustomIndicatorView.swift in Sources */,
