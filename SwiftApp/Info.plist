@@ -2,23 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CFBundleURLTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>com.googleusercontent.apps.348185142802-3sbjaknaom1j2gossf26u2t6qh5glkph</string>
-			</array>
-		</dict>
-	</array>
-	<key>GIDClientID</key>
-	<string>348185142802-3sbjaknaom1j2gossf26u2t6qh5glkph.apps.googleusercontent.com</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>LeagueSpartan-Regular.ttf</string>
 		<string>Montserrat-Regular.ttf</string>
+<<<<<<< HEAD
+=======
+		<string>LeagueSpartan-Light.ttf</string>
+		<string>LeagueSpartan-ExtraLight.ttf</string>
+		<string>Montserrat-ExtraBold.ttf</string>
+		<string>Montserrat-SemiBold.ttf</string>
+		<string>LeagueSpartan-Medium.ttf</string>
+		<string>Montserrat-Medium.ttf</string>
+		<string>Montserrat-Light.ttf</string>
+		<string>Montserrat-Italic.ttf</string>
+		<string>LeagueSpartan-ExtraBold.ttf</string>
+		<string>LeagueSpartan-Regular.ttf</string>
+		<string>Montserrat-Regular.ttf</string>
+		<string>LeagueSpartan-SemiBold.ttf</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict/>
+>>>>>>> origin/testmerge
 	</array>
 </dict>
 </plist>
