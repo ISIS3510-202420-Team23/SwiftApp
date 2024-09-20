@@ -20,13 +20,13 @@ struct HomepageRentView: View {
                     ScrollView {
                         VStack {
                             Heading()
-                            SearchAndFilterBar()
-                            
-                                .onTapGesture {
-                                    withAnimation(.snappy){
-                                        showFilterSearchView.toggle()
-                                    }
-                                }
+//                            SearchAndFilterBar()
+//                            
+//                                .onTapGesture {
+//                                    withAnimation(.snappy){
+//                                        showFilterSearchView.toggle()
+//                                    }
+//                                }
                             CreateMoreButton()
                             LazyVStack (spacing: 32){
                                 ForEach(0 ... 10, id: \.self) { listing in
