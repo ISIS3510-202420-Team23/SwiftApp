@@ -62,13 +62,13 @@ struct OfferRentView: View {
 
                         .foregroundColor(.black)
                     
-                    Text("•")
-                        .font(.custom("LeagueSpartan-Light", size: 16))
-                        .foregroundColor(.black)
-                    
-                    Text("2 bookmarks")
-                        .font(.custom("LeagueSpartan-Light", size: 16))
-                        .foregroundColor(.black)
+//                    Text("•")
+//                        .font(.custom("LeagueSpartan-Light", size: 16))
+//                        .foregroundColor(.black)
+//                    
+//                    Text("2 bookmarks")
+//                        .font(.custom("LeagueSpartan-Light", size: 16))
+//                        .foregroundColor(.black)
                         
                     
                     Spacer()
