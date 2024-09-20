@@ -26,6 +26,7 @@
 		37DA1F552C9720D700880A36 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 37DA1F542C9720D700880A36 /* FirebaseFirestore */; };
 		37DA1F5E2C97293C00880A36 /* LeagueSpartan-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F5D2C97293C00880A36 /* LeagueSpartan-Regular.ttf */; };
 		37DA1F602C97296C00880A36 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F5F2C97296C00880A36 /* Montserrat-Regular.ttf */; };
+		9CEA52822C9E1F9B00728E01 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9CEA52812C9E1F9B00728E01 /* .gitignore */; };
 		9CFDF5302C98A48900B66B33 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 9CFDF52F2C98A48900B66B33 /* GoogleSignIn */; };
 		9CFDF5322C98A48900B66B33 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9CFDF5312C98A48900B66B33 /* GoogleSignInSwift */; };
 		9CFDF5342C98D76800B66B33 /* WelcomePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDF5332C98D76800B66B33 /* WelcomePageModel.swift */; };
@@ -76,6 +77,7 @@
 		37DA1F5D2C97293C00880A36 /* LeagueSpartan-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Regular.ttf"; sourceTree = "<group>"; };
 		37DA1F5F2C97296C00880A36 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		37DA1F632C97337800880A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9CEA52812C9E1F9B00728E01 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		9CFDF5332C98D76800B66B33 /* WelcomePageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageModel.swift; sourceTree = "<group>"; };
 		9CFDF5352C98D94600B66B33 /* WelcomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageView.swift; sourceTree = "<group>"; };
 		9CFDF5372C98DF7D00B66B33 /* WelcomeIndividualPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeIndividualPageView.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		37782CC72C8E803C00913A91 = {
 			isa = PBXGroup;
 			children = (
+				9CEA52812C9E1F9B00728E01 /* .gitignore */,
 				37782CD22C8E803C00913A91 /* SwiftApp */,
 				37782CE32C8E803D00913A91 /* SwiftAppTests */,
 				37782CED2C8E803D00913A91 /* SwiftAppUITests */,
@@ -363,6 +366,7 @@
 				37DA1F5E2C97293C00880A36 /* LeagueSpartan-Regular.ttf in Resources */,
 				37782CDB2C8E803D00913A91 /* Preview Assets.xcassets in Resources */,
 				37DA1F602C97296C00880A36 /* Montserrat-Regular.ttf in Resources */,
+				9CEA52822C9E1F9B00728E01 /* .gitignore in Resources */,
 				37782CD82C8E803D00913A91 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
