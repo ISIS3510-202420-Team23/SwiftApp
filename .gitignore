@@ -30,6 +30,9 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+*.xcuserstate
+
+
 ### macOS Patch ###
 # iCloud generated files
 *.icloud
