@@ -29,6 +29,7 @@ struct OfferDetailView: View {
                                     .frame(width: 40, height: 40)
                             }
                             .padding(32)
+                            .padding(.top, 30)
                     }
                     
                 }

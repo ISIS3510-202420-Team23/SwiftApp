@@ -15,7 +15,7 @@
 		37782CEF2C8E803D00913A91 /* SwiftAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37782CEE2C8E803D00913A91 /* SwiftAppUITests.swift */; };
 		37782CF12C8E803D00913A91 /* SwiftAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37782CF02C8E803D00913A91 /* SwiftAppUITestsLaunchTests.swift */; };
 		378698E92C9CCD040096F1C3 /* MainTabLandlordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378698E82C9CCCED0096F1C3 /* MainTabLandlordView.swift */; };
-		37DA1F392C97195200880A36 /* TestModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F382C97195200880A36 /* TestModels.swift */; };
+		378698EB2C9CD3600096F1C3 /* OfferModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378698EA2C9CD3570096F1C3 /* OfferModel.swift */; };
 		37DA1F3B2C97195C00880A36 /* TestVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F3A2C97195C00880A36 /* TestVM.swift */; };
 		37DA1F462C9719D700880A36 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA1F452C9719D700880A36 /* ColorExtensions.swift */; };
 		37DA1F4A2C971E7200880A36 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37DA1F492C971E7200880A36 /* GoogleService-Info.plist */; };
@@ -79,7 +79,8 @@
 		37782CEE2C8E803D00913A91 /* SwiftAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppUITests.swift; sourceTree = "<group>"; };
 		37782CF02C8E803D00913A91 /* SwiftAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		378698E82C9CCCED0096F1C3 /* MainTabLandlordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabLandlordView.swift; sourceTree = "<group>"; };
-		37DA1F382C97195200880A36 /* TestModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModels.swift; sourceTree = "<group>"; };
+		378698EA2C9CD3570096F1C3 /* OfferModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferModel.swift; sourceTree = "<group>"; };
+		378698EC2C9DAA830096F1C3 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		37DA1F3A2C97195C00880A36 /* TestVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVM.swift; sourceTree = "<group>"; };
 		37DA1F452C9719D700880A36 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
 		37DA1F492C971E7200880A36 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -151,6 +152,7 @@
 		37782CC72C8E803C00913A91 = {
 			isa = PBXGroup;
 			children = (
+				378698EC2C9DAA830096F1C3 /* .gitignore */,
 				37782CD22C8E803C00913A91 /* SwiftApp */,
 				37782CE32C8E803D00913A91 /* SwiftAppTests */,
 				37782CED2C8E803D00913A91 /* SwiftAppUITests */,
@@ -235,7 +237,7 @@
 		37DA1F372C9718E600880A36 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				37DA1F382C97195200880A36 /* TestModels.swift */,
+				378698EA2C9CD3570096F1C3 /* OfferModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -480,9 +482,9 @@
 				37DA1F712C98E7A500880A36 /* OfferDetailView.swift in Sources */,
 				37DA1F6F2C989E3B00880A36 /* Heading.swift in Sources */,
 				37DA1F7D2C99B60D00880A36 /* FiltersSearchView.swift in Sources */,
+				378698EB2C9CD3600096F1C3 /* OfferModel.swift in Sources */,
 				37DA1F6B2C9859D300880A36 /* OfferView.swift in Sources */,
 				37DA1F682C98553400880A36 /* HomepageView.swift in Sources */,
-				37DA1F392C97195200880A36 /* TestModels.swift in Sources */,
 				A9FC138A2C9B2B6B00156C8F /* FormView.swift in Sources */,
 				37DA1F462C9719D700880A36 /* ColorExtensions.swift in Sources */,
 			);
